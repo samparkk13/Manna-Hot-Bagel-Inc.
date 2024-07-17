@@ -1,0 +1,68 @@
+
+/* base styles */
+body {
+  background-color: lightgray;
+}
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+/* HEADER STYLING */
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.header h1 {
+  margin: 0;
+  color: #333;
+  font-size: 14px; 
+  font-weight: 400; 
+}
+
+.header h2.cursive-big {
+  font-family: 'Cursive', sans-serif;
+  font-size: 3em; /* Adjust size as needed */
+  font-style: italic;
+}
+
+
+/* NAVBAR STYLING */
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Center the titles */
+  align-items: center;
+  max-width: 100vw;
+  margin: 0 auto;
+  /* border-bottom: 1px solid #000000; */
+  background-color: orange;
+}
+
+.navbar h1 {
+  color: #36454F;
+  font-family: "Quicksand"; /* Ensure the same font */
+  margin: 0; 
+}
+
+
+.navbar .links {
+  display: flex;
+  justify-content: center; /* Center the links */
+  width: 100%; 
+}
+
+.navbar a {
+  margin: 0 16px; /* Add some margin between the links */
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover h1 {
+  color: white;
+}
