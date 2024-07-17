@@ -1,53 +1,21 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navbar from './Components/Navbar/Navbar';
 import { VStack } from "@chakra-ui/react";
 import Header from "./Components/Header/Header";
-
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useLocation,
-} from "react-router-dom";
-
-
-
-
-function ScrollToTop() {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return null;
-}
-
+import ImageGallery from "./Components/ImageGallery/ImageGallery";
+import About from "./Components/About/About";
+import Menu from "./Components/Menu/Menu";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
-
   return (
     <div>
-      <Header/>
+      <Header id="header" />
       <Navbar />
-
-      <VStack>
-        <Router>
-          <ScrollToTop />
-
-          <div className="App" >
-            
-            <Routes>
-              {/* Routes */}
-
-
-    
-            </Routes>
-          </div>
-          
-        </Router>
-      </VStack>
-
+      <ImageGallery />
+      <div id="about"><About /></div>
+      <div id="menu"><Menu /></div>
+      <div id="contact"><Contact /></div>
     </div>
   );
 }
