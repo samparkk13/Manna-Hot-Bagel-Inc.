@@ -68,7 +68,7 @@ body {
 }
 
 .navbar a {
-  margin: 0 16px; /* Add some margin between the links */
+  margin: 0 1.4%; /* Add some margin between the links */
   text-decoration: none;
   padding: 6px;
 }
