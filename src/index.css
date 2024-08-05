@@ -43,7 +43,7 @@ body {
 
 /* NAVBAR STYLING */
 .navbar {
-  padding: 20px;
+  padding: 7px;
   display: flex;
   justify-content: center; /* Center the titles */
   align-items: center;
@@ -55,7 +55,8 @@ body {
 
 .navbar h1 {
   color: #36454F;
-  font-family: "Quicksand"; /* Ensure the same font */
+  font-family: 'Lato', 'Times New Roman', Times, serif; /* Ensure the same font */
+  font-weight: 300; /* Thinner font */
   margin: 0; 
 }
 

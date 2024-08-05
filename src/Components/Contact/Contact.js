@@ -27,7 +27,7 @@ const Contact = () => {
           <br /><br />
           Sat - 5:00 AM - 4:00 PM
           <br /><br />
-          Sun - 6:00 AM - 2:00 PM
+          Sun - 5:30 AM - 3:00 PM
           </p>
         </div>
         <div className="right-panel">
