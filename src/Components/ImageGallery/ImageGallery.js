@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from 'react';
 
 const images = [
-  'Images/fakebagel.jpeg', 
-  'Images/mannaBagelStore.jpeg',
+  'Images/front.jpg', 
+  'Images/bagels.jpg', 
+  'Images/preBagel.jpg', 
+  'Images/hotFood.jpg',
+  'Images/page1.jpg',
+  'Images/page2.jpg',
+  'Images/page3.jpg',
+  'Images/insideFront.jpg',
+  'Images/sideStore.jpg',
 ];
 
 const ImageGallery = () => {
