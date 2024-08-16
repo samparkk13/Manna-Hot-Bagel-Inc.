@@ -27,8 +27,9 @@ const Menu = () => {
 
             <ul>
               <li style={{ fontWeight: "bold", fontSize: "1.5em" }}>
-                Your Choice of Any of the Bagels: <span style={{ fontWeight: 'normal' }}>$1.50 each</span>
+                Your Choice of Any of the Bagels: <span style={{ fontWeight: 'normal', fontSize: '0.7em' }}>$1.50 each</span>
               </li>
+              <br/>
               <div className="bagel-options">
                 <div className="bagel-left">
                   <div className="bagel-item">
@@ -151,6 +152,130 @@ const Menu = () => {
               </ul>
             </ul>
             <br />
+            <h2 style={{ fontSize: "2.0em" }}>Manna Breakfast - Hot Platter</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+                Any Style Eggs, w/ Home Fries, Toast
+            </p>
+            <br/>
+            <br/>
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>1. Cheese Omelet Platter <span className="bagel-price">$9.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>2. Meat Platter <span className="bagel-price">$9.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>2 Eggs, Ham or Bacon or Sausage (1 Choice)</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>3. Veggie Omelet <span className="bagel-price">$9.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Tomatoes, Peppers, Spinach, Mushrooms, Onions, and Swiss Cheese</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>4. Western Omelet Platter <span className="bagel-price">$9.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Ham, Onions, and Peppers</p>
+                  </div>
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>5. Greek Omelet Platter <span className="bagel-price">$10.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Tomatoes, Feta, Spinach, Mushrooms</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>6. Spanish Omelet Platter <span className="bagel-price">$9.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Bacon, Cheddar Cheese, Onions, Peppers</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>7. Manna Healthy Omelet <span className="bagel-price">$9.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>3 Eggs White, Spinach, Onions, Avocado</p>
+                  </div>
+                </div>
+              </div>
+            </ul>
+
+            <br />
+            <h2 style={{ fontSize: "2.0em" }}>Eggs White on a Wrap</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br/>
+            <br/>
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>8. 3 Eggs White <span className="bagel-price">$7.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>+ Spinach, Onion, Avocado</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>9. 3 Eggs White <span className="bagel-price">$7.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>+ Spinach, Green Pepper, Onion</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>10. 3 Eggs White <span className="bagel-price">$6.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>+ Cheese</p>
+                  </div>
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>11. 3 Eggs White <span className="bagel-price">$8.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>+ Mushroom, Tomato, Spinach, Feta Cheese, Spinach Wrap</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>12. 3 Eggs White <span className="bagel-price">$8.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>+ Turkey Sausage or Turkey Bacon</p>
+                  </div>
+                </div>
+              </div>
+            </ul>
+
+            <br />
+            <h2 style={{ fontSize: "2.0em" }}>Pancake & French Toast</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br/>
+            <br/>
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>13. Pancakes (3pcs) <span className="bagel-price">$7.00</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>14. Pancake with Meat <span className="bagel-price">$10.50</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>(Ham or Bacon or Sausage)</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>15. Pancake with 2 Eggs and Meat<span className="bagel-price">$13.50</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>16. French Toast (3pcs)<span className="bagel-price">$7.00</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>17. French Toast with Meat<span className="bagel-price">$10.50</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>18. French Toast with 2 Eggs and Meat<span className="bagel-price">$13.50</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>19. Waffle (1pcs) <span className="bagel-price">$7.00</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>20. Waffle with Meat <span className="bagel-price">$10.50</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Ham or Bacon or Sausage</p>
+                  </div>
+                </div>
+              </div>
+            </ul>
         </div>;
       case 'Main Menu':
         return <div className="menu-section"><h1>Dinner Menu</h1>{/* Add dinner menu content here */}</div>;
