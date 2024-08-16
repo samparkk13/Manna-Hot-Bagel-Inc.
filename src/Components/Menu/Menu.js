@@ -33,17 +33,17 @@ const Menu = () => {
                 <div className="bagel-left">
                   <div className="bagel-item">
                     <li>Bialy Flat Bagels: <span className="bagel-price">$2.00</span></li>
-                    <p style={{ fontSize: '0.9em', textAlign: 'left'}}>Topped with sesame seeds for a nutty flavor.</p>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Topped with sesame seeds for a nutty flavor.</p>
                   </div>
                   <div className="bagel-item">
                     <li>1/2 Dozen Bagels:  <span className="bagel-price">$9.00</span></li>
-                    <p style={{ fontSize: '0.9em', textAlign: 'left'}}>A blend of poppy seeds, sesame seeds, garlic, onion, and salt.</p>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>A blend of poppy seeds, sesame seeds, garlic, onion, and salt.</p>
                   </div>
                 </div>
                 <div className="bagel-right">
                   <div className="bagel-item">
                     <li>1 Dozen Bagels: <span className="bagel-price">$18.00</span></li>
-                    <p style={{ fontSize: '0.9em', textAlign: 'left'}}>Sweet and chewy with raisins and a hint of cinnamon.</p>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Sweet and chewy with raisins and a hint of cinnamon.</p>
                   </div>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Menu = () => {
               </ul>
               <div className="bagel-item">
                 <li style={{color: '#C41E3A', fontWeight: 'bold'}}>*Flavored Cheam Cheese <span className="bagel-price">$4.50</span></li>
-                <p style={{ fontSize: '0.9em', textAlign: 'left' }}>(Vegetable, Scallion, Olive, Strawberry, Raisin Walnut, Jalapeno)</p>
+                <p style={{ fontSize: '0.7em', textAlign: 'left' }}>(Vegetable, Scallion, Olive, Strawberry, Raisin Walnut, Jalapeno)</p>
               </div>
             </ul>
           </div>
