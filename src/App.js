@@ -6,6 +6,7 @@ import ImageGallery from "./Components/ImageGallery/ImageGallery";
 import About from "./Components/About/About";
 import Menu from "./Components/Menu/Menu";
 import Contact from "./Components/Contact/Contact";
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div id="about"><About /></div>
       <div id="menu"><Menu /></div>
       <div id="contact"><Contact /></div>
+      <Footer />
     </div>
   );
 }

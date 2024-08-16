@@ -278,7 +278,60 @@ const Menu = () => {
             </ul>
         </div>;
       case 'Main Menu':
-        return <div className="menu-section"><h1>Dinner Menu</h1>{/* Add dinner menu content here */}</div>;
+        return <div className="menu-section">
+            <h2 style={{ fontSize: "2.0em" }}>Manna Combination Special</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+                From Boar's Head Brand
+            </p>
+            <br />
+            <br />
+
+            <ul>
+  <div className="bagel-options">
+    <div className="bagel-left">
+      <div className="bagel-item">
+        <li>
+          21. Chicken Cutlet
+          <div style={{ display: 'inline-block', marginLeft: '10px' }}>
+            <span style={{ display: 'inline-block', textAlign: 'right' }}>
+              <div style={{ fontSize: '0.7em', fontWeight: 'bold' }}>Roll</div>
+              <span className="bagel-price">$9.99</span>
+            </span>
+            <span style={{ display: 'inline-block', textAlign: 'right', marginLeft: '20px' }}>
+              <div style={{ fontSize: '0.7em', fontWeight: 'bold' }}>Wrap/Hero</div>
+              <span className="bagel-price">$11.99</span>
+            </span>
+          </div>
+        </li>
+        <p style={{ fontSize: '0.7em', textAlign: 'left' }}>
+          w/ Lettuce, Tomato, Jalapeno, Russian Dressing
+        </p>
+      </div>
+    </div>
+    <div className="bagel-right">
+      <div className="bagel-item">
+        <li>
+          22. Honey Turkey
+          <div style={{ display: 'inline-block', marginLeft: '10px' }}>
+            <span style={{ display: 'inline-block', textAlign: 'right' }}>
+              <div style={{ fontSize: '0.7em', fontWeight: 'bold' }}>Roll</div>
+              <span className="bagel-price">$9.99</span>
+            </span>
+            <span style={{ display: 'inline-block', textAlign: 'right', marginLeft: '20px' }}>
+              <div style={{ fontSize: '0.7em', fontWeight: 'bold' }}>Wrap/Hero</div>
+              <span className="bagel-price">$11.99</span>
+            </span>
+          </div>
+        </li>
+        <p style={{ fontSize: '0.7em', textAlign: 'left' }}>
+          w/ Cheddar Cheese, Lettuce, Tomato, Russian Dressing
+        </p>
+      </div>
+    </div>
+  </div>
+</ul>
+
+        </div>;
       case 'dessert':
         return <div className="menu-section"><h1>Dessert Menu</h1>{/* Add dessert menu content here */}</div>;
       default:
@@ -287,11 +340,11 @@ const Menu = () => {
             <div className="quadrant" onClick={() => setSelectedSection('Bagel')}>
               {/* <img src='Images/bagelImage.jpeg' alt="Bagel" className="quadrant-image" /> */}
               {/* <div className="quadrant-text">BAGEL</div> */}
-              <div>BAGEL</div>
+              <div>MANNA BAGELS</div>
             </div>
-            <div className="quadrant" onClick={() => setSelectedSection('Manna Breakfast')}>Manna Breakfast</div>
-            <div className="quadrant" onClick={() => setSelectedSection('Main Menu')}>Main Menu</div>
-            <div className="quadrant" onClick={() => setSelectedSection('dessert')}>Dessert</div>
+            <div className="quadrant" onClick={() => setSelectedSection('Manna Breakfast')}>MANNA BREAKFAST</div>
+            <div className="quadrant" onClick={() => setSelectedSection('Main Menu')}>MANNA MAIN MENU</div>
+            <div className="quadrant" onClick={() => setSelectedSection('dessert')}>MANNA CHEF SPECIAL</div>
           </div>
         );
     }
