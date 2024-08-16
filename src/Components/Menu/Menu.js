@@ -880,7 +880,7 @@ const Menu = () => {
                   <div className="bagel-item">
                     <li>
                       <div className="sandwich-item">
-                        <div className="sandwich-name">52. Missing You</div>
+                        <div className="sandwich-name">54. Missing You</div>
                         <div className="sandwich-description">Hot Roasted Beef, Bacon, Melted Mozzarella, B.B.Q Sauce</div>
                       </div>
                       <div className="price-container">
@@ -896,10 +896,92 @@ const Menu = () => {
                     </li>
                   </div>
 
-
                 </div>
               </div>
             </ul>
+            <h2 style={{ fontSize: "2.0em" }}>Famous Manna Burgers</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+                
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">55. Hamburger</div>
+                      <div className="sandwich-description">Lettuce, Tomato</div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$6.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">57. Bacon Cheeseburger</div>
+                      <div className="sandwich-description">Lettuce, Tomato</div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$8.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">59. Bacon Cheeseburger Deluxe</div>
+                      <div className="sandwich-description"></div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$12.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">56. Cheeseburger</div>
+                      <div className="sandwich-description">Lettuce, Tomato</div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$7.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">58. Cheeseburger Deluxe</div>
+                      <div className="sandwich-description"></div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </ul>
+
+
           </div>;
       case 'dessert':
         return <div className="menu-section"><h1>Dessert Menu</h1>{/* Add dessert menu content here */}</div>;
