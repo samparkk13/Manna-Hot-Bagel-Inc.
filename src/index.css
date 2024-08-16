@@ -342,7 +342,8 @@ body {
 }
 
 .back-button {
-  margin-top: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
   padding: 10px 20px;
   font-size: 1em;
   cursor: pointer;

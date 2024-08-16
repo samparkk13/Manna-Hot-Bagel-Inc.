@@ -102,23 +102,54 @@ const Menu = () => {
                 <div className="bagel-left">
                   <div className="bagel-item">
                     <li>Egg and Cheese: <span className="bagel-price">$5.99</span></li>
-                    <p style={{ fontSize: '0.9em', textAlign: 'left'}}>Bacon, Ham, or Sausage (1 Choice)</p>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Bacon, Ham, or Sausage (1 Choice)</p>
                   </div>
                   <div className="bagel-item">
                     <li>Egg and Cheese:  <span className="bagel-price">$6.99</span></li>
-                    <p style={{ fontSize: '0.9em', textAlign: 'left'}}>Beef Sausage, Turkey, Turkey Bacon, Turkey Sausage (1 choice)</p>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Beef Sausage, Turkey, Turkey Bacon, Turkey Sausage (1 choice)</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>Bacon, Egg White and Cheese  <span className="bagel-price">$7.50</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>Bacon and Cream Cheese  <span className="bagel-price">$6.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>Grilled Cheese <span className="bagel-price">$5.00</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>w/ Bacon, Ham, Sausage (1 choice)</p>
                   </div>
                 </div>
                 <div className="bagel-right">
                   <div className="bagel-item">
                     <li>Big Jim (Hero): <span className="bagel-price">$13.99</span></li>
-                    <p style={{ fontSize: '0.9em', textAlign: 'left'}}>Bacon, Ham, Egg, Cheese</p>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Bacon, Ham, Egg, Cheese</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>Big Fat Freddy <span className="bagel-price">$9.50</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Bacon and Sausage, Eggs, and Cheese</p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>Western Omelette  <span className="bagel-price">$8.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>Hash Brown  <span className="bagel-price">$3.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                  </div>
+                  <div className="bagel-item">
+                    <li>Hot Oat Meal  <span className="bagel-price">$4.99</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
                   </div>
                 </div>
               </div>
-              <br />
+              <ul>
+                <li style={{ fontSize: "1.0em" }}>
+                    Extra Cheese $0.50, Croissant $1.00, Egg $1.00
+                </li>
+              </ul>
             </ul>
-            <br />
             <br />
         </div>;
       case 'Main Menu':
@@ -144,14 +175,14 @@ const Menu = () => {
   return (
     <div className="menu-container">
       <div className="separator-wrapper">
-        <hr className="separator" />
-        <span className="menu-text">Menu</span>
+        <hr className="separator" />  
+        <span className="menu-text">Menu</span> 
         <hr className="separator" />
       </div>
-      {renderContent()}
       {selectedSection && (
-        <button className="back-button" onClick={() => setSelectedSection(null)}>Back to Menu</button>
+        <button className="back-button" onClick={() => setSelectedSection(null)}>Back to Menus</button>
       )}
+      {renderContent()}
     </div>
   );
 }
