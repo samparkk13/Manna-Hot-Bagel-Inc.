@@ -15,7 +15,8 @@ const Contact = () => {
           <h2>Phone Number</h2>
           <p>(718) 257-3068</p>
           <h2>Hours</h2>
-          <p>Mon - 5:00 AM - 4:00 PM
+          <p>
+          {/* Mon - 5:00 AM - 4:00 PM
           <br /><br />
           Tue - 5:00 AM - 4:00 PM
           <br /><br />
@@ -25,9 +26,10 @@ const Contact = () => {
           <br /><br />
           Fri - 5:00 AM - 4:00 PM
           <br /><br />
-          Sat - 5:00 AM - 4:00 PM
+          Sat - 5:00 AM - 4:00 PM */}
+          <b>Mon - Sat:</b> 5:00 AM - 4:00 PM
           <br /><br />
-          Sun - 5:30 AM - 3:00 PM
+          <b>Sun:</b> 5:30 AM - 3:00 PM
           </p>
         </div>
         <div className="right-panel">
