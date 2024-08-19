@@ -83,7 +83,7 @@ const Menu = () => {
               </div>
               </ul>
               <div className="bagel-item">
-                <li style={{color: '#C41E3A', fontWeight: 'bold'}}>*Flavored Cheam Cheese <span className="bagel-price">$4.50</span></li>
+                <li style={{color: '#C41E3A', fontWeight: 'bold'}}>*Flavored Cream Cheese <span className="bagel-price">$4.50</span></li>
                 <p style={{ fontSize: '0.7em', textAlign: 'left' }}>(Vegetable, Scallion, Olive, Strawberry, Raisin Walnut, Jalapeno)</p>
               </div>
             </ul>
