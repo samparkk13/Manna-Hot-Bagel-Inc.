@@ -60,7 +60,7 @@ const Menu = () => {
                         <li>Extras: Bialy, Flat <span className="bagel-price">$0.50</span></li>
                     </div>
                     <div className="bagel-item">
-                        <li>Butter or Jelly <span className="bagel-price">$3.50</span></li>
+                        <li>Butter or Jelly <span className="bagel-price">$2.50</span></li>
                     </div>
                     <div className="bagel-item">
                         <li>Lox Spread <span className="bagel-price">$5.50</span></li>
@@ -244,12 +244,12 @@ const Menu = () => {
                     <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
                   </div>
                   <div className="bagel-item">
-                    <li>14. Pancake with Meat <span className="bagel-price">$10.50</span></li>
-                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>(Ham or Bacon or Sausage)</p>
+                    <li>14. Pancakes with Meat <span className="bagel-price">$10.50</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>+ Ham or Bacon or Sausage</p>
                   </div>
                   <div className="bagel-item">
-                    <li>15. Pancake with 2 Eggs and Meat<span className="bagel-price">$13.50</span></li>
-                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                    <li>15. Pancakes <span className="bagel-price">$13.50</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>+ 2 Eggs and Meat</p>
                   </div>
                   <div className="bagel-item">
                     <li>16. French Toast (3pcs)<span className="bagel-price">$7.00</span></li>
@@ -259,11 +259,11 @@ const Menu = () => {
                 <div className="bagel-right">
                   <div className="bagel-item">
                     <li>17. French Toast with Meat<span className="bagel-price">$10.50</span></li>
-                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>+ Ham or Bacon or Sausage</p>
                   </div>
                   <div className="bagel-item">
-                    <li>18. French Toast with 2 Eggs and Meat<span className="bagel-price">$13.50</span></li>
-                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}></p>
+                    <li>18. French Toast<span className="bagel-price">$13.50</span></li>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>+ 2 Eggs and Meat</p>
                   </div>
                   <div className="bagel-item">
                     <li>19. Waffle (1pcs) <span className="bagel-price">$7.00</span></li>
@@ -271,7 +271,7 @@ const Menu = () => {
                   </div>
                   <div className="bagel-item">
                     <li>20. Waffle with Meat <span className="bagel-price">$10.50</span></li>
-                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>Ham or Bacon or Sausage</p>
+                    <p style={{ fontSize: '0.7em', textAlign: 'left'}}>+ Ham or Bacon or Sausage</p>
                   </div>
                 </div>
               </div>
@@ -772,7 +772,7 @@ const Menu = () => {
                   <div className="bagel-item">
                     <li>
                       <div className="sandwich-item">
-                        <div className="sandwich-name">New York 'Yankees'</div>
+                        <div className="sandwich-name">42. New York 'Yankees'</div>
                         <div className="sandwich-description">Hot Roasted Beef, Bacon, Melted Mozzarella, Lettuce, Tomato</div>
                       </div>
                       <div className="price-container">
