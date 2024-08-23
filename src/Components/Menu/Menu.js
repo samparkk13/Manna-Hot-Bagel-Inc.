@@ -5,6 +5,20 @@ const Menu = () => {
 
   const renderContent = () => {
     switch (selectedSection) {
+
+
+
+
+
+
+
+
+
+
+
+
+      /* BAGEL MENU*/
+        
       case 'Bagel':
         return (
           <div className="menu-section">
@@ -89,6 +103,21 @@ const Menu = () => {
             </ul>
           </div>
         );
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* BREAKFAST MENU */
+
       case 'Manna Breakfast':
         return <div className="menu-section">
             <h2 style={{ fontSize: "2.0em" }}>Manna Breakfast</h2>
@@ -277,6 +306,21 @@ const Menu = () => {
               </div>
             </ul>
         </div>;
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* MAIN MENU */
+
       case 'Main Menu':
         return <div className="menu-section">
             <h2 style={{ fontSize: "2.0em" }}>Manna Combination Special</h2>
@@ -899,10 +943,11 @@ const Menu = () => {
                 </div>
               </div>
             </ul>
+
             <h2 style={{ fontSize: "2.0em" }}>Famous Manna Burgers</h2>
             <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
-                
             </p>
+
             <br />
             <br />
             <ul>
@@ -981,10 +1026,1741 @@ const Menu = () => {
               </div>
             </ul>
 
+            <h2 style={{ fontSize: "2.0em" }}>Hot Panini</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">60. The Vegetarian</div>
+                      <div className="sandwich-description">Two Scrambled Eggs, Peppers, Tomato, Chopped Scallions
+                      Fresh Mushroom and Mozzarella Cheese on Plain Panini Bread
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">62. Grill Man Special</div>
+                      <div className="sandwich-description">Grilled Chicken, Jack Cheese, Lettuce, Tomato, Honey Mustard
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">64. Classico</div>
+                      <div className="sandwich-description">Our Delicious Tuna Fish with Provolone Cheese, Romaine Lettuce, Red Onions and Tomatoes
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">66. Taxi Driver</div>
+                      <div className="sandwich-description">Turkey Breast and American Cheese with Crisp Bacon and Honey Mustard
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
 
-          </div>;
-      case 'dessert':
-        return <div className="menu-section"><h1>Dessert Menu</h1>{/* Add dessert menu content here */}</div>;
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">61. The American</div>
+                      <div className="sandwich-description">Two Scrambled Eggs with Ham, American Cheese, and Tomato on Panini Bread</div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">63. The Monte Cristo</div>
+                      <div className="sandwich-description">Ham & Honey Turkey, Melted Swiss Cheese, Lettuce, Tomato, Honey Mustard
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">65. American Me</div>
+                      <div className="sandwich-description">Deluxe Ham thinly sliced with American Cheese, Lettuce, Tomatoes, Mustard, and Mayonnaise
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                 
+
+                </div>
+              </div>
+            </ul>
+
+
+            <h2 style={{ fontSize: "2.0em" }}>Triple Deck Sandwiches</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">67. Turkey Breast</div>
+                        <div className="sandwich-description">with Bacon, Lettuce, Tomato</div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header"></div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">w/ French Fries</div>
+                          <span className="bagel-price">$12.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">69. Roast Beef</div>
+                        <div className="sandwich-description">with Swiss Cheese, Lettuce, Tomato</div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header"></div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">w/ French Fries</div>
+                          <span className="bagel-price">$12.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+
+
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">68. Chicken Salad</div>
+                      <div className="sandwich-description">with Bacon, Lettuce, Tomato</div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header"></div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">w/ French Fries</div>
+                          <span className="bagel-price">$12.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">70. Turkey + Chicken Salad</div>
+                        <div className="sandwich-description">with Lettuce, Tomato</div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header"></div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">w/ French Fries</div>
+                          <span className="bagel-price">$12.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+
+                 
+
+                </div>
+              </div>
+            </ul>
+
+
+            <h2 style={{ fontSize: "2.0em" }}>Manna Cold Wrap</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+                by Boar's Head brand any sauce or dressing
+            </p>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+                Plain, Whole Wheat, Tomato, Spinach
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">71. Chicken Salad</div>
+                      <div className="sandwich-description">with Lettuce, Tomato
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">73. Turkey Breast</div>
+                      <div className="sandwich-description">with Cheese, Lettuce, Tomato
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">75. Italian</div>
+                      <div className="sandwich-description">Ham, Salami, Pepperoni, Provolone, Cheese, Lettuce, Tomato, Oil / Vinegar
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">72. Tuna Salad</div>
+                      <div className="sandwich-description">with Lettuce, Tomato</div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">74. Manna Club</div>
+                      <div className="sandwich-description">Ham, Turkey Breast, Swiss, Mayo, Lettuce, Tomato</div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">76. Vegetable</div>
+                      <div className="sandwich-description">Lettuce, Tomato, Roasted Pepper, Pickles, Any Cheese</div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$8.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                 
+
+                </div>
+              </div>
+            </ul>
+
+            <h2 style={{ fontSize: "2.0em" }}>Manna Hot Wrap</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">77. Grilled Chicken Caesar Salad Wrap</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">79. Manna Bagel Healthy Wrap</div>
+                      <div className="sandwich-description">
+                        2 Scrambled Eggs, Honey Turkey, Swiss Cheese, Green Pepper, Onion, Tomato, Choice Wrap
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">81. Turkey BLT</div>
+                      <div className="sandwich-description">
+                        Turkey Breast, Bacon, Lettuce, Tomato
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">83. Brooklyn Wrap</div>
+                      <div className="sandwich-description">
+                        Bacon, Eggs, Cheese, Home Fries
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">85. Chipotle Chicken</div>
+                      <div className="sandwich-description">
+                        Chicken Cutlet, Pepper Jack Cheese, Avocado, Lettuce, Tomato, Chipotle Mayo
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">87. Hot Pastrami</div>
+                      <div className="sandwich-description">
+                        Bacon, Cheddar Cheese
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$12.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">78. Manna Bagel Wrap</div>
+                      <div className="sandwich-description">
+                        Grilled Chicken, Avocado, Swiss Cheese, Lettuce, Tomato
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">80. Western Wrap</div>
+                      <div className="sandwich-description">
+                        2 Scrambled Eggs, Ham or Turkey, Green Pepper, Onion, Tomato
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">82. Rockaway Pkwy Wrap</div>
+                      <div className="sandwich-description">
+                        Grilled Chicken Breast, Melted Mozzarella, Roast Pepper, Honey Mustard
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">84. Hot Roast Beef</div>
+                      <div className="sandwich-description">
+                        Swiss, Onion, Pepper w/ Gravy
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">86. Chicken Cutlet</div>
+                      <div className="sandwich-description">
+                        Cheese, Lettuce, Tomato
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$10.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">88. Chicken Quesadillas</div>
+                      <div className="sandwich-description">
+                        Grilled Chicken Breast, Mixed Cheese, Green Pepper, Onion
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$12.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                 
+
+                </div>
+              </div>
+            </ul>
+
+            <h2 style={{ fontSize: "2.0em" }}>Manna Gyro on Pita</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">89. Chicken Breast Gyro (Wrap)</div>
+                      <div className="sandwich-description">
+                        Chicken Breast, Lettuce, Tomato, Red Onion, Gyro Sauce
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">91. Beef Gyro (Pita)</div>
+                      <div className="sandwich-description">
+                        Beef Gyro, Lettuce, Tomato, Red Onion, Gyro Sauce
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Pita / Wrap</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Platter</div>
+                          <span className="bagel-price">$12.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">90. Chicken Gyro (Pita)</div>
+                      <div className="sandwich-description">
+                        Grilled Chicken Breast, Red Onion, Lettuce, Tomato, Gyro Sauce
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Pita</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Platter</div>
+                          <span className="bagel-price">$12.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">92. Beef Gyro Philly Cheese</div>
+                      <div className="sandwich-description">
+                        Beef Gyro, Grilled Onion, Pepper, Melted Cheese
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Wrap / Hero</div>
+                          <span className="bagel-price">$12.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                 
+
+                </div>
+              </div>
+            </ul>
+
+
+            <h2 style={{ fontSize: "2.0em" }}>Manna Faous Fresh Grilled Chicken Breast</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">93. Grilled Fresh Chicken Breast</div>
+                      <div className="sandwich-description">
+                        Red Onion, Tomato, Gyro Sauce
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Pita</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">95. Grilled Chicken</div>
+                      <div className="sandwich-description">
+                        Jack Cheese, Lettuce, Tomato, Avocado, Chipotle Mayo, Roasted Pepper
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Hero</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">97. Grilled French Chicken Breast</div>
+                      <div className="sandwich-description">
+                        Vegetable Salad
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Platter</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">94. Grilled Fresh Chicken Breast</div>
+                      <div className="sandwich-description">
+                        Cheese, Lettuce, Tomato
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Roll</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">96. Grilled Fresh Chicken Breast</div>
+                      <div className="sandwich-description">
+                        Beef Gyro, Lettuce, Tomato, Red Onion, Gyro Sauce
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Platter</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                 
+
+                </div>
+              </div>
+            </ul>
+
+            <h2 style={{ fontSize: "2.0em" }}>Manna Famous Salad Platter Over 5 Vegetables with any Dressing</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+                (Lettuce, Tomato, Cucumber, Red Onion and More)
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">98. Grilled Chicken Caesar Salad Platter</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$11.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">100. Turkey Breast Salad Platter</div>
+                      <div className="sandwich-description">
+                        w/ Pepper Turkey, Honey Turkey, Roast Turkeye (3 Kinds)
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$11.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">102. Tuna Salad Platter</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$11.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">104. Grilled Chicken w/ Greek Salad Platter</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$10.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$12.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">107. Chicken Strip Salad Platter</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">(3 pcs)</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">109. Garden Salad</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$6.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$8.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+
+
+                </div>
+                <div className="bagel-right">
+                <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">99. Beef Gyro Salad Platter</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$11.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">101. Roast Beef Salad Platter</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$11.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">103. Chef Salad Platter</div>
+                      <div className="sandwich-description">
+                        Ham, Turkey, Roast Beef, Swiss Cheese
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$10.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$12.49</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">105. Egg Salad Platter</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$8.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$10.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">108. Chicken Salad (Chunky) Platter</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$8.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$10.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">110. Greek Salad</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$7.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+
+                  
+                 
+
+                </div>
+              </div>
+            </ul>
+
+            <h2 style={{ fontSize: "2.0em" }}>Manna Fries, Combo Platter</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">111. F.F. Combo Melted Cheddar Cheese</div>
+                      <div className="sandwich-description">with Onion Ring
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$8.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">113. Chicken Nugget Combo</div>
+                      <div className="sandwich-description">8 pcs Nugget + Fries
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">115. 6 Pcs Mozzarella Stick + Fries</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">112. Fried Chicken Combo</div>
+                      <div className="sandwich-description">
+                        Chicken Steak Fries
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">114. 6 Pcs Buffalo Wing Combo</div>
+                      <div className="sandwich-description">Buffalo Wings + Fries
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">116. Fried Flounder Filet + French Fries</div>
+                      <div className="sandwich-description">with Onion Ring
+                      </div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                 
+
+                </div>
+              </div>
+            </ul>
+
+            <h2 style={{ fontSize: "2.0em" }}>Side Order</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">French Fries</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$3.49</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$5.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">Onion Ring, Sweet Potato, Curly F.F. Waffle</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$3.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$6.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">Beef Patty</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$2.49</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">Potato Knish</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">(ea)</div>
+                          <span className="bagel-price">$1.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">Mozzarella Sticks 4 pcs</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$4.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">Fresh Cut Fruit</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$4.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$7.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  
+    
+
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">French Fries with Cheese</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$4.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$7.49</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">Onion Ring, Sweet Potato, Curly F.F. Waffle with Cheese</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Small</div>
+                          <span className="bagel-price">$6.49</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$8.49</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">Beef Patty with Cheese</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$3.49</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">Rice Pudding (1/2 lb) Homemade</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$1.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">Hash Brown 2 pcs</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$3.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">Chicken Nugget 8 pcs</div>
+                      <div className="sandwich-description">
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$7.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                 
+
+                </div>
+            
+                
+              </div>
+              <br/>
+              <br/>
+              <div className="bagel-item">
+                <li style={{color: '#C41E3A', fontWeight:'bold'}}>Healthy Soup <span className="bagel-price">$4.99</span></li>
+                <p style={{ fontSize: '0.7em', textAlign: 'left' }}>All Soups are made Fresh Daily. Ask about our Soups of the Day</p>
+              </div>
+              <div className="bagel-item">
+                <li style={{color: '#C41E3A', fontWeight:'bold'}}>Yogurt Fruit Parfaits <span className="bagel-price">$4.99</span></li>
+                <p style={{ fontSize: '0.7em', textAlign: 'left' }}>Fresh Lowfat Dannon Vanilla Yogurt with Fruit & Granola, Great as an Appetizer or Dessert Treat</p>
+              </div>
+
+            <h2 style={{ fontSize: "2.0em" }}>Smoothies</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">1. Berry Banana</div>
+                      <div className="sandwich-description">Strawberry, Blueberry, Banana, Almond Milk
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Medium</div>
+                          <span className="bagel-price">$5.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$7.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">3. Mega Mango</div>
+                      <div className="sandwich-description">
+                        Mango, Strawberry, Orange, Pineapple
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Medium</div>
+                          <span className="bagel-price">$5.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$7.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">5. Tropical Tornado</div>
+                      <div className="sandwich-description">
+                        Apple Juice, Mango, Pineapple, Strawberry
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Medium</div>
+                          <span className="bagel-price">$5.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$7.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">2. Apple Fruitee</div>
+                      <div className="sandwich-description">
+                        Apple Juice, Strawberry, Banana, Kiwi
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Medium</div>
+                          <span className="bagel-price">$5.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$7.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">4. High Protein</div>
+                      <div className="sandwich-description">
+                        Strawberry, Banana, Almond Milk, Protein Powder
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Medium</div>
+                          <span className="bagel-price">$5.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$7.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+            
+
+                </div>
+              </div>
+
+            
+              
+            </ul>
+            <h2 style={{ fontSize: "2.0em" }}>Juice</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br />
+            <br />
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">1. Daily Detox</div>
+                      <div className="sandwich-description">
+                        Carrot, Cucumber, Apple, Ginger
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Medium</div>
+                          <span className="bagel-price">$6.50</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$8.50</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">3. Pure Fresh</div>
+                      <div className="sandwich-description">
+                        Apple, Orange, Carrot
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Medium</div>
+                          <span className="bagel-price">$6.50</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$8.50</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">5. The Refresher</div>
+                      <div className="sandwich-description">
+                        Beet, Celery, Apple, Carrot, Lemon Juice
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Medium</div>
+                          <span className="bagel-price">$6.50</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$8.50</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+
+                </div>
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">2. Green Machine</div>
+                      <div className="sandwich-description">
+                        Spinach, Kale, Cucumber, Apple, Celery
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Medium</div>
+                          <span className="bagel-price">$6.50</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$8.50</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">4. Eye Doctor</div>
+                      <div className="sandwich-description">
+                        Carrot, Apple, Celery, Ginger
+                      </div>
+                    </div>
+                    <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Medium</div>
+                          <span className="bagel-price">$6.50</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Large</div>
+                          <span className="bagel-price">$8.50</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+        
+                </div>
+              </div>  
+            </ul>
+          </ul>
+        </div>;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* CHEF SPECIAL MENU */
+
+      case 'Chef Special':
+        return <div className="menu-section">
+            <h2 style={{ fontSize: "2.0em" }}>Manna Chef Special</h2>
+            <p style={{color: '#C41E3A', fontStyle: 'italic'}}>
+            </p>
+            <br />
+            <br />
+
+            <ul>
+              <div className="bagel-options">
+                <div className="bagel-left">
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">S1. Manna Grilled Chicken Caesar Salad</div>
+                      <div className="sandwich-description"></div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <div className="price-header">Small</div>
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                      <div className="price-group">
+                        <div className="price-header">Large</div>
+                        <span className="bagel-price">$11.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                    <div className="sandwich-item">
+                      <div className="sandwich-name">S3. Con Edison Emergency</div>
+                      <div className="sandwich-description">Grilled Chicken, Bacon, Cheddar Cheese, Roasted Peppers, and Balsamic Vinegar</div>
+                    </div>
+                    <div className="price-container">
+                      <div className="price-group">
+                        <div className="price-header">Roll</div>
+                        <span className="bagel-price">$9.99</span>
+                      </div>
+                      <div className="price-group">
+                        <div className="price-header">Hero</div>
+                        <span className="bagel-price">$13.99</span>
+                      </div>
+                    </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">S5. Jersey Shore</div>
+                        <div className="sandwich-description">
+                            Fresh Homemade Crispy Chicken Cutlet, Melted Mozzarella, Bacon, Spicy French Fries, Ranch Dressing
+                        </div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Roll</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Hero</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">S7. Throwback</div>
+                        <div className="sandwich-description">
+                            Fresh Homemade Crispy Chicken Cutlet, Bacon, Onion Rings, Cheddar Cheese, B.B.Q. Sauce on a Toasted Garlic Hero
+                        </div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Hero</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">S9. Double Trouble</div>
+                        <div className="sandwich-description">
+                            Two Burgers, Bacon, Onion Rings, American Cheese, Pickles, Ketchup, Salt and Pepper on a Toasted Hero
+                        </div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Hero</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                </div>
+
+
+
+                <div className="bagel-right">
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">S2. Time Warner</div>
+                        <div className="sandwich-description">
+                            Chicken Cutlet and Honey Turkey with Muenster Cheese and French Fries, Honey Mustard
+                        </div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Roll</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Hero</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">S4. American Idol</div>
+                        <div className="sandwich-description">
+                            Crispy Chicken Cutlet, American Cheese, French Fries and Onion Rings, Russian Dressing, B.B.Q. Sauce, Toast Garlic Hero
+                        </div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Hero</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">S6. Top Chef</div>
+                        <div className="sandwich-description">
+                            Fresh Homemade Crispy Chicken Cutlet, Melted Mozzarella, Bacon, French Fries, Brown Gravy or B.B.Q. Sauce
+                        </div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Roll</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Hero</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">S8. Little Italy</div>
+                        <div className="sandwich-description">
+                            Grilled Chicken, Fresh Oregano, Mozzarella Cheese, Roasted Peppers, Fried Salami on a Toasted Garlic Hero
+                        </div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Hero</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  <div className="bagel-item">
+                    <li>
+                      <div className="sandwich-item">
+                        <div className="sandwich-name">S10. Roasted Beef Delight</div>
+                        <div className="sandwich-description">
+                            Grilled Roasted Beef, Mozzarella Cheese, Bacon, Spicy French Fries, Hot Sauce + Brown Gravy
+                        </div>
+                      </div>
+                      <div className="price-container">
+                        <div className="price-group">
+                          <div className="price-header">Roll</div>
+                          <span className="bagel-price">$9.99</span>
+                        </div>
+                        <div className="price-group">
+                          <div className="price-header">Hero</div>
+                          <span className="bagel-price">$13.99</span>
+                        </div>
+                      </div>
+                    </li>
+                  </div>
+                  
+
+                </div>
+              </div>
+            </ul>
+
+
+
+        </div>;
       default:
         return (
             <div className="quadrant-container">
@@ -995,7 +2771,7 @@ const Menu = () => {
             </div>
             <div className="quadrant" onClick={() => setSelectedSection('Manna Breakfast')}>MANNA BREAKFAST</div>
             <div className="quadrant" onClick={() => setSelectedSection('Main Menu')}>MANNA MAIN MENU</div>
-            <div className="quadrant" onClick={() => setSelectedSection('dessert')}>MANNA CHEF SPECIAL</div>
+            <div className="quadrant" onClick={() => setSelectedSection('Chef Special')}>MANNA CHEF SPECIAL</div>
           </div>
         );
     }

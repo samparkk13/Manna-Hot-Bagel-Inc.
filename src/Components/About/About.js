@@ -11,7 +11,6 @@ const About = () => {
       <h1 className="main-heading">Best, Biggest Bagel & Deli in Town</h1>
       <h2 className="sub-heading">We offer a fresh, healthy variety of foods ranging from a fresh sandwich to catering for any size party! 
       Our bagels are hand-rolled, old-fashioned, and baked on premises EVERY. SINGLE. DAY.</h2>
-      <h2 className="sub-heading">We Do Catering</h2>
       <h2 className="sub-heading">All Day Long Fast Delivery</h2>
     </div>
   );
