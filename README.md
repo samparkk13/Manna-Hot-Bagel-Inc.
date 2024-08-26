@@ -5,7 +5,7 @@
 A fully responsive, fast, accessible and search engine optimized deli website built with React.js.
 
 ## Features
-- Photo Album Slider
+- Photo Album Slider utilizing state management with useState and lifecycle handling with useEffect.
 - Valid CSS with mobile view adjustments
 - Custom Google Map with custom API key
 - Menu pages using onClick and switch ... case statements in JavaScript
